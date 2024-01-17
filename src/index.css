@@ -1,0 +1,42 @@
+body {
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#root{
+  max-width: 1440px;
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.wrapper{
+  max-width: 1440px;
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+}
+
+.leftbox{
+  width: 20%;
+  height: 100%;
+  background-color: blue;
+  float: left;
+}
+.rightbox{
+  width: 80%;
+  height: 100%;
+  background-color: green;
+  float: right;
+}
